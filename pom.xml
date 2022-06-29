@@ -6,7 +6,12 @@
 
   <groupId>com.service</groupId>
   <artifactId>micro-service-parent</artifactId>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
+
+  <modules>
+    <module>customer</module>
+  </modules>
 
   <name>micro-service-parent</name>
 
