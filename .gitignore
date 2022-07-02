@@ -1,1 +1,4 @@
 /.idea/
+/.vscode/
+/fraud/fraud.iml
+/fraud/target/
