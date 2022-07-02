@@ -1,3 +1,6 @@
+application:
+  name: Customer Service
+  version: 0.0.1-SNAPSHOT
 server:
   port: 8080
 spring:
@@ -16,6 +19,7 @@ spring:
       dialect: org.hibernate.dialect.PostgreSQLDialect
       format_sql: true
     show-sql: true
-application:
-  name: Customer Service
-  version: 0.0.1-SNAPSHOT
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
